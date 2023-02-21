@@ -3,6 +3,7 @@
      RewriteEngine On
 
      # Api redirect
+     # RewriteRule ^api/(.*)$ public/$1 [L]
      RewriteRule ^api/(.*)$ public/$1 [L]
 
      # assets redirect
